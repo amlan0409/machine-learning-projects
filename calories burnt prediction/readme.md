@@ -49,7 +49,7 @@ The notebook includes performance metrics and comparison of models used for regr
 - Heart rate (bpm)
 - Body temperature (°C)
 
-## Future Improvements
+## 📈 Future Improvements
 - Hyperparameter tuning for better model performance
 
 - Deployment using a web framework (e.g., Flask or Streamlit)
