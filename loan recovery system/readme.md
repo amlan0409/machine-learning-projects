@@ -5,7 +5,7 @@ This repository contains a machine learning project that aims to predict the lik
 ## 📁 Project Contents
 
 - `loan recovery system.ipynb` – Jupyter Notebook containing data analysis, preprocessing, model training, evaluation, and predictions.
-- `loan-recovery.csv` – Dataset used for model training and evaluation.
+- `loan-recovery.xlsx` – Dataset used for model training and evaluation.
 
 ## 📌 Problem Statement
 
@@ -33,24 +33,24 @@ Loan defaults pose a major risk to financial institutions. This project aims to 
    - Compare models to determine the best performer
    - Visualize confusion matrix and ROC-AUC curves
 
-## 🧠 Features Used (Example)
+## 🧠 Features Used 
 
-> These may vary depending on your actual dataset. Examples include:
+> I have used 10 features for the prediction. Examples include:
 
 - Loan Amount
 - Term
 - Interest Rate
-- Borrower Credit Score
-- Employment Length
-- Recovery Status (Target Variable)
+- Borrower Risk Score (predicted output)
+- Days past due
+- Recovery Strategy (Target Variable)
 
 ## 🛠️ Technologies Used
 
 - Python 3.x
 - Jupyter Notebook
-- Pandas, NumPy
+- Pandas
 - Scikit-learn
-- Matplotlib, Seaborn
+- Plotly
 
 ## ✅ Future Enhancements
 - Hyperparameter tuning with GridSearchCV or RandomizedSearchCV
