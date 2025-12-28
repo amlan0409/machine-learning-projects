@@ -21,7 +21,7 @@ This project:
 ## 🛠️ Features
 
 ✅ **Text cleaning & tokenization** of symptom descriptions.  
-✅ **TFDVectorization** for unique medical terms extraction.  
+✅ **TF-IDF Vectorization** for unique medical terms extraction.  
 ✅ **Cosine similarity calculation** for medicine similarity.  
 ✅ Pickle serialization for **fast, deployment-friendly loading**.  
 ✅ Flask/Streamlit-ready `recommend` function for API/interactive apps.
